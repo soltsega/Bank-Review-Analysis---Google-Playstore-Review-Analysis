@@ -6,29 +6,29 @@
 
 A comprehensive data analysis pipeline for processing and analyzing Google Play Store reviews of Ethiopian banking applications. This project is part of the 10 Academy Week 2 Challenge.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#-project-overview)
-- [📊 Features](#-features)
-- [🚀 Getting Started](#-getting-started)
+- [Features](#-features)
+- [Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [📁 Project Structure](#-project-structure)
-- [🔧 Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [Usage](#-usage)
   - [Data Preprocessing](#data-preprocessing)
   - [Sentiment Analysis](#sentiment-analysis)
   - [Thematic Analysis](#thematic-analysis)
   - [Database Integration](#database-integration)
-- [🧪 Testing](#-testing)
-- [🤖 CI/CD Pipeline](#-cicd-pipeline)
-- [📈 Analysis Methodology](#-analysis-methodology)
+- [Testing](#-testing)
+- [CI/CD Pipeline](#-cicd-pipeline)
+- [Analysis Methodology](#-analysis-methodology)
   - [Sentiment Analysis](#sentiment-analysis-1)
   - [Thematic Analysis](#thematic-analysis-1)
-- [📄 Reports and Visualizations](#-reports-and-visualizations)
-- [📝 License](#-license)
-- [🙏 Acknowledgments](#-acknowledgments)
+- [Reports and Visualizations](#-reports-and-visualizations)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
 
-## 🌟 Project Overview
+## Project Overview
 
 This project focuses on analyzing customer satisfaction with mobile banking apps from three major Ethiopian banks:
 - Commercial Bank of Ethiopia (CBE)
@@ -41,7 +41,7 @@ The analysis includes:
 - Comparative analysis between banks
 - Generation of actionable insights for app improvement
 
-## 📊 Features
+## Features
 
 - **Data Collection**: Automated scraping of Google Play Store reviews
 - **Data Preprocessing**: Cleaning and normalization of review text
@@ -51,7 +51,7 @@ The analysis includes:
 - **Database Integration**: PostgreSQL for data persistence
 - **CI/CD**: Automated testing and deployment
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -87,7 +87,7 @@ The analysis includes:
    DATABASE_URL=postgresql://username:password@localhost:5432/bank_reviews
    ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Week-2/
@@ -111,7 +111,7 @@ Week-2/
 └── requirements.txt
 ```
 
-## 🔧 Usage
+## Usage
 
 ### Data Preprocessing
 
@@ -161,7 +161,7 @@ db.save_reviews(df_processed)
 reviews = db.get_reviews_by_bank("CBE")
 ```
 
-## 🧪 Testing
+## Testing
 
 Run the test suite with:
 
@@ -169,7 +169,7 @@ Run the test suite with:
 pytest tests/ -v --cov=src --cov-report=term-missing
 ```
 
-## 🤖 CI/CD Pipeline
+## CI/CD Pipeline
 
 The project uses GitHub Actions for continuous integration and deployment. The pipeline includes:
 
@@ -178,7 +178,7 @@ The project uses GitHub Actions for continuous integration and deployment. The p
 3. Code coverage reporting
 4. Automated deployment on successful build
 
-## 📈 Analysis Methodology
+## Analysis Methodology
 
 ### Sentiment Analysis
 
@@ -200,7 +200,7 @@ The project uses GitHub Actions for continuous integration and deployment. The p
    - Latent Dirichlet Allocation (LDA)
    - Non-Negative Matrix Factorization (NMF)
 
-## 📄 Reports and Visualizations
+## Reports and Visualizations
 
 The analysis generates several visualizations:
 
@@ -209,15 +209,8 @@ The analysis generates several visualizations:
 3. **Topic Modeling** visualizations
 4. **Time Series Analysis** of sentiment trends
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- 10 Academy for the challenge
-- Google Play Store for review data
-- Open-source community for libraries and tools
-- Instructors and mentors at 10 Academy
 ```
 
