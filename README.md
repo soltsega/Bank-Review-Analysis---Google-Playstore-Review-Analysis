@@ -2,6 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+
 A comprehensive data analysis pipeline for processing and analyzing Google Play Store reviews of Ethiopian banking applications. This project is part of the 10 Academy Week 2 Challenge.
 
 ## Table of Contents
